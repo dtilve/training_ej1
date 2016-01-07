@@ -1,25 +1,786 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="995"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RqE-mD-yCv">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="64" width="400" height="882"/>
+                                </variation>
+                            </scrollView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ycz-4p-a1g">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <color key="tintColor" red="0.61318420516271399" green="0.67049554861820015" blue="0.68785511359999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Venta" id="dwj-fR-HeE">
+                                        <barButtonItem key="rightBarButtonItem" image="ventas_editar" id="V6g-lj-nFA">
+                                            <color key="tintColor" red="0.5725490196078431" green="0.5725490196078431" blue="0.58823529411764708" alpha="1" colorSpace="calibratedRGB"/>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="20" width="400" height="44"/>
+                                </variation>
+                            </navigationBar>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZhW-35-FaY">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dks-tj-q4v">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" horizontalCompressionResistancePriority="500" translatesAutoresizingMaskIntoConstraints="NO" id="PD4-TP-Zus">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Producto" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mhW-CI-ruH">
+                                                        <rect key="frame" x="20" y="20" width="71" height="21"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                            <rect key="frame" x="8" y="10" width="60" height="17"/>
+                                                        </variation>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cantidad" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lu1-9t-YIf">
+                                                        <rect key="frame" x="20" y="20" width="71" height="21"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                            <rect key="frame" x="206" y="8" width="59" height="17"/>
+                                                        </variation>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Precio" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zm2-ii-71a">
+                                                        <rect key="frame" x="20" y="20" width="71" height="21"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                            <rect key="frame" x="317" y="8" width="41" height="17"/>
+                                                        </variation>
+                                                    </label>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ETv-CY-FxU">
+                                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                        <subviews>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qY2-nN-ab5">
+                                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NaG-Pw-dJI">
+                                                                        <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                                                        <string key="text">Item de testeo - Por favor no 
+ofertar</string>
+                                                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                                            <rect key="frame" x="8" y="4" width="186" height="46"/>
+                                                                        </variation>
+                                                                    </label>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qem-N5-KAx">
+                                                                        <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                                            <rect key="frame" x="231" y="8" width="8" height="21"/>
+                                                                        </variation>
+                                                                    </label>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$12,00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JCb-ZF-UT8">
+                                                                        <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                                            <rect key="frame" x="316" y="8" width="41" height="21"/>
+                                                                        </variation>
+                                                                    </label>
+                                                                </subviews>
+                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <variation key="default">
+                                                                    <mask key="subviews">
+                                                                        <exclude reference="NaG-Pw-dJI"/>
+                                                                        <exclude reference="qem-N5-KAx"/>
+                                                                        <exclude reference="JCb-ZF-UT8"/>
+                                                                    </mask>
+                                                                </variation>
+                                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="377" height="54"/>
+                                                                    <mask key="subviews">
+                                                                        <include reference="NaG-Pw-dJI"/>
+                                                                        <include reference="qem-N5-KAx"/>
+                                                                        <include reference="JCb-ZF-UT8"/>
+                                                                    </mask>
+                                                                </variation>
+                                                            </view>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u2Y-ai-zpl">
+                                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descuento" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RYD-Vy-CDY">
+                                                                        <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                                            <rect key="frame" x="8" y="9" width="65" height="21"/>
+                                                                        </variation>
+                                                                    </label>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$12,00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pXK-ax-DVU">
+                                                                        <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                                            <rect key="frame" x="318" y="9" width="41" height="21"/>
+                                                                        </variation>
+                                                                    </label>
+                                                                </subviews>
+                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <variation key="default">
+                                                                    <mask key="subviews">
+                                                                        <exclude reference="RYD-Vy-CDY"/>
+                                                                        <exclude reference="pXK-ax-DVU"/>
+                                                                    </mask>
+                                                                </variation>
+                                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                                    <rect key="frame" x="0.0" y="58" width="377" height="39"/>
+                                                                    <mask key="subviews">
+                                                                        <include reference="RYD-Vy-CDY"/>
+                                                                        <include reference="pXK-ax-DVU"/>
+                                                                    </mask>
+                                                                </variation>
+                                                            </view>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fPa-Rc-hBX">
+                                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Envío" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gqg-Ru-pKy">
+                                                                        <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                                            <rect key="frame" x="8" y="9" width="65" height="21"/>
+                                                                        </variation>
+                                                                    </label>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0,00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L50-RL-PTN">
+                                                                        <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                                            <rect key="frame" x="317" y="9" width="41" height="21"/>
+                                                                        </variation>
+                                                                    </label>
+                                                                </subviews>
+                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <variation key="default">
+                                                                    <mask key="subviews">
+                                                                        <exclude reference="gqg-Ru-pKy"/>
+                                                                        <exclude reference="L50-RL-PTN"/>
+                                                                    </mask>
+                                                                </variation>
+                                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                                    <rect key="frame" x="0.0" y="98" width="377" height="39"/>
+                                                                    <mask key="subviews">
+                                                                        <include reference="gqg-Ru-pKy"/>
+                                                                        <include reference="L50-RL-PTN"/>
+                                                                    </mask>
+                                                                </variation>
+                                                            </view>
+                                                        </subviews>
+                                                        <color key="backgroundColor" red="0.85465988010000005" green="0.85465988010000005" blue="0.85465988010000005" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <variation key="default">
+                                                            <mask key="subviews">
+                                                                <exclude reference="qY2-nN-ab5"/>
+                                                                <exclude reference="u2Y-ai-zpl"/>
+                                                                <exclude reference="fPa-Rc-hBX"/>
+                                                            </mask>
+                                                        </variation>
+                                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                            <rect key="frame" x="0.0" y="38" width="377" height="137"/>
+                                                            <mask key="subviews">
+                                                                <include reference="qY2-nN-ab5"/>
+                                                                <include reference="u2Y-ai-zpl"/>
+                                                                <include reference="fPa-Rc-hBX"/>
+                                                            </mask>
+                                                        </variation>
+                                                    </view>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TOTAL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1mA-8d-wMo">
+                                                        <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                            <rect key="frame" x="8" y="189" width="60" height="21"/>
+                                                        </variation>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0,00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rHL-RG-jwi">
+                                                        <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                            <rect key="frame" x="317" y="193" width="41" height="21"/>
+                                                        </variation>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.97068339650000002" green="0.97068339650000002" blue="0.97068339650000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                <variation key="default">
+                                                    <mask key="subviews">
+                                                        <exclude reference="mhW-CI-ruH"/>
+                                                        <exclude reference="Lu1-9t-YIf"/>
+                                                        <exclude reference="Zm2-ii-71a"/>
+                                                        <exclude reference="ETv-CY-FxU"/>
+                                                        <exclude reference="1mA-8d-wMo"/>
+                                                        <exclude reference="rHL-RG-jwi"/>
+                                                    </mask>
+                                                </variation>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="12" y="15" width="377" height="224"/>
+                                                    <mask key="subviews">
+                                                        <include reference="mhW-CI-ruH"/>
+                                                        <include reference="Lu1-9t-YIf"/>
+                                                        <include reference="Zm2-ii-71a"/>
+                                                        <include reference="ETv-CY-FxU"/>
+                                                        <include reference="1mA-8d-wMo"/>
+                                                        <include reference="rHL-RG-jwi"/>
+                                                    </mask>
+                                                </variation>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <variation key="default">
+                                            <mask key="subviews">
+                                                <exclude reference="PD4-TP-Zus"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="0.0" y="84" width="400" height="253"/>
+                                            <mask key="subviews">
+                                                <include reference="PD4-TP-Zus"/>
+                                            </mask>
+                                        </variation>
+                                    </view>
+                                    <view contentMode="scaleToFill" horizontalCompressionResistancePriority="100" translatesAutoresizingMaskIntoConstraints="NO" id="SMz-k2-Gve">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Notas" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="edB-vX-QyE">
+                                                <rect key="frame" x="20" y="20" width="186" height="43"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="25" y="22" width="53" height="24"/>
+                                                </variation>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum lorel, commenset in abem simet" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gUT-9R-Rcl">
+                                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="25" y="50" width="275" height="21"/>
+                                                </variation>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nTX-Kh-Che">
+                                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                                <state key="normal" image="ic_answer_trash"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="346" y="34" width="46" height="30"/>
+                                                </variation>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <variation key="default">
+                                            <mask key="subviews">
+                                                <exclude reference="edB-vX-QyE"/>
+                                                <exclude reference="gUT-9R-Rcl"/>
+                                                <exclude reference="nTX-Kh-Che"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="0.0" y="784" width="400" height="84"/>
+                                            <mask key="subviews">
+                                                <include reference="edB-vX-QyE"/>
+                                                <include reference="gUT-9R-Rcl"/>
+                                                <include reference="nTX-Kh-Che"/>
+                                            </mask>
+                                        </variation>
+                                    </view>
+                                    <view contentMode="scaleToFill" horizontalCompressionResistancePriority="200" translatesAutoresizingMaskIntoConstraints="NO" id="btb-4m-552">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Datos del cliente" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YcO-hR-2Bm">
+                                                <rect key="frame" x="20" y="20" width="186" height="43"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="25" y="22" width="150" height="24"/>
+                                                </variation>
+                                            </label>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F6a-Il-JTm">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v21-Uw-lL0">
+                                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4mC-YF-ukI">
+                                                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                                    <rect key="frame" x="19" y="10" width="58" height="21"/>
+                                                                </variation>
+                                                            </label>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WaW-Th-Jac">
+                                                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                                                <state key="normal" image="agregar_contacto"/>
+                                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                                    <rect key="frame" x="335" y="9" width="46" height="30"/>
+                                                                </variation>
+                                                            </button>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <variation key="default">
+                                                            <mask key="subviews">
+                                                                <exclude reference="4mC-YF-ukI"/>
+                                                                <exclude reference="WaW-Th-Jac"/>
+                                                            </mask>
+                                                        </variation>
+                                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                            <rect key="frame" x="-17" y="-6" width="381" height="39"/>
+                                                            <mask key="subviews">
+                                                                <include reference="4mC-YF-ukI"/>
+                                                                <include reference="WaW-Th-Jac"/>
+                                                            </mask>
+                                                        </variation>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="37q-9D-igb">
+                                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="an@gmail.com" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U6u-T8-pio">
+                                                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                                    <rect key="frame" x="17" y="10" width="88" height="21"/>
+                                                                </variation>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <variation key="default">
+                                                            <mask key="subviews">
+                                                                <exclude reference="U6u-T8-pio"/>
+                                                            </mask>
+                                                        </variation>
+                                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                            <rect key="frame" x="-17" y="34" width="381" height="39"/>
+                                                            <mask key="subviews">
+                                                                <include reference="U6u-T8-pio"/>
+                                                            </mask>
+                                                        </variation>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Orh-DP-68j">
+                                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+54 11 4785 9885" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N3d-n8-i5B">
+                                                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                                    <rect key="frame" x="17" y="10" width="110" height="21"/>
+                                                                </variation>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <variation key="default">
+                                                            <mask key="subviews">
+                                                                <exclude reference="N3d-n8-i5B"/>
+                                                            </mask>
+                                                        </variation>
+                                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                            <rect key="frame" x="-17" y="74" width="381" height="39"/>
+                                                            <mask key="subviews">
+                                                                <include reference="N3d-n8-i5B"/>
+                                                            </mask>
+                                                        </variation>
+                                                    </view>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.85465988008585858" green="0.85465988008585858" blue="0.85465988008585858" alpha="1" colorSpace="calibratedRGB"/>
+                                                <variation key="default">
+                                                    <mask key="subviews">
+                                                        <exclude reference="v21-Uw-lL0"/>
+                                                        <exclude reference="37q-9D-igb"/>
+                                                        <exclude reference="Orh-DP-68j"/>
+                                                    </mask>
+                                                </variation>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="36" y="51" width="364" height="150"/>
+                                                    <mask key="subviews">
+                                                        <include reference="v21-Uw-lL0"/>
+                                                        <include reference="37q-9D-igb"/>
+                                                        <include reference="Orh-DP-68j"/>
+                                                    </mask>
+                                                </variation>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E6D-Ed-03b">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sin dirección" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dd7-hO-fdi">
+                                                        <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                            <rect key="frame" x="18" y="10" width="110" height="21"/>
+                                                        </variation>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <variation key="default">
+                                                    <mask key="subviews">
+                                                        <exclude reference="Dd7-hO-fdi"/>
+                                                    </mask>
+                                                </variation>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="19" y="165" width="381" height="39"/>
+                                                    <mask key="subviews">
+                                                        <include reference="Dd7-hO-fdi"/>
+                                                    </mask>
+                                                </variation>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <variation key="default">
+                                            <mask key="subviews">
+                                                <exclude reference="YcO-hR-2Bm"/>
+                                                <exclude reference="F6a-Il-JTm"/>
+                                                <exclude reference="E6D-Ed-03b"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="0.0" y="566" width="400" height="210"/>
+                                            <mask key="subviews">
+                                                <include reference="YcO-hR-2Bm"/>
+                                                <include reference="F6a-Il-JTm"/>
+                                                <include reference="E6D-Ed-03b"/>
+                                            </mask>
+                                        </variation>
+                                    </view>
+                                    <view contentMode="scaleToFill" horizontalCompressionResistancePriority="600" translatesAutoresizingMaskIntoConstraints="NO" id="Cu1-2I-Go8">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b1J-Xh-3HI">
+                                                <rect key="frame" x="20" y="20" width="186" height="43"/>
+                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
+                                                <color key="textColor" red="0.26662161169959425" green="0.3569187472073222" blue="0.68785511363636365" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="15" y="22" width="69" height="24"/>
+                                                </variation>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="via: MercadoShops" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9fG-sz-hGN">
+                                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="15" y="54" width="142" height="21"/>
+                                                </variation>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TSs-6t-ZM8">
+                                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                                <color key="tintColor" red="0.30588235294117649" green="0.32549019607843138" blue="0.54117647058823526" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="Button" image="ventas_llamar"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="183" y="30" width="46" height="30"/>
+                                                </variation>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dJO-ec-FPo">
+                                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                                <color key="tintColor" red="0.30588235294117649" green="0.32549019607843138" blue="0.54117647058823526" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="Button" image="ventas_mail"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="256" y="30" width="46" height="30"/>
+                                                </variation>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3:42 PM" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fMI-cL-T2a">
+                                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                                                <color key="textColor" red="0.57254901960000004" green="0.57254901960000004" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="342" y="46" width="50" height="21"/>
+                                                </variation>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3 nov" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gwb-ek-OOI">
+                                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                                                <color key="textColor" red="0.57254901960000004" green="0.57254901960000004" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="342" y="24" width="50" height="21"/>
+                                                </variation>
+                                            </label>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j8h-wo-TN2">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nfj-Pu-zUa">
+                                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                            <rect key="frame" x="2" y="-21" width="6" height="60"/>
+                                                        </variation>
+                                                    </view>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.85465988010000005" green="0.85465988010000005" blue="0.85465988010000005" alpha="1" colorSpace="calibratedRGB"/>
+                                                <variation key="default">
+                                                    <mask key="subviews">
+                                                        <exclude reference="Nfj-Pu-zUa"/>
+                                                    </mask>
+                                                </variation>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="310" y="30" width="8" height="30"/>
+                                                    <mask key="subviews">
+                                                        <include reference="Nfj-Pu-zUa"/>
+                                                    </mask>
+                                                </variation>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <variation key="default">
+                                            <mask key="subviews">
+                                                <exclude reference="b1J-Xh-3HI"/>
+                                                <exclude reference="9fG-sz-hGN"/>
+                                                <exclude reference="TSs-6t-ZM8"/>
+                                                <exclude reference="dJO-ec-FPo"/>
+                                                <exclude reference="fMI-cL-T2a"/>
+                                                <exclude reference="gwb-ek-OOI"/>
+                                                <exclude reference="j8h-wo-TN2"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="0.0" y="-12" width="400" height="88"/>
+                                            <mask key="subviews">
+                                                <include reference="b1J-Xh-3HI"/>
+                                                <include reference="9fG-sz-hGN"/>
+                                                <include reference="TSs-6t-ZM8"/>
+                                                <include reference="dJO-ec-FPo"/>
+                                                <include reference="fMI-cL-T2a"/>
+                                                <include reference="gwb-ek-OOI"/>
+                                                <include reference="j8h-wo-TN2"/>
+                                            </mask>
+                                        </variation>
+                                    </view>
+                                    <view contentMode="scaleToFill" horizontalHuggingPriority="300" translatesAutoresizingMaskIntoConstraints="NO" id="3Qj-4u-rpf">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <subviews>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="estado_pago" translatesAutoresizingMaskIntoConstraints="NO" id="bo3-Bi-Cmf">
+                                                <rect key="frame" x="0.0" y="-30" width="30" height="30"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="67" y="23" width="30" height="30"/>
+                                                </variation>
+                                            </imageView>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="estado_envio" translatesAutoresizingMaskIntoConstraints="NO" id="DO2-9b-Ds6">
+                                                <rect key="frame" x="0.0" y="-30" width="30" height="30"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="185" y="23" width="30" height="30"/>
+                                                </variation>
+                                            </imageView>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="estado_factura" translatesAutoresizingMaskIntoConstraints="NO" id="AXf-hc-4AY">
+                                                <rect key="frame" x="0.0" y="-30" width="30" height="30"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="314" y="23" width="30" height="30"/>
+                                                </variation>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Envío pendiente" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5gw-D8-fBP">
+                                                <rect key="frame" x="20" y="20" width="142" height="21"/>
+                                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                                                <color key="textColor" red="0.50196081399917603" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="152" y="61" width="97" height="16"/>
+                                                </variation>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Facturado" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zol-qf-k8X">
+                                                <rect key="frame" x="20" y="20" width="142" height="21"/>
+                                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                                                <color key="textColor" red="0.25098040699958801" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="299" y="61" width="61" height="16"/>
+                                                </variation>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cobrado" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qYk-qz-e4P">
+                                                <rect key="frame" x="20" y="20" width="142" height="21"/>
+                                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                                                <color key="textColor" red="0.25098040699958801" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="56" y="61" width="53" height="16"/>
+                                                </variation>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <variation key="default">
+                                            <mask key="subviews">
+                                                <exclude reference="bo3-Bi-Cmf"/>
+                                                <exclude reference="DO2-9b-Ds6"/>
+                                                <exclude reference="AXf-hc-4AY"/>
+                                                <exclude reference="5gw-D8-fBP"/>
+                                                <exclude reference="Zol-qf-k8X"/>
+                                                <exclude reference="qYk-qz-e4P"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="0.0" y="442" width="400" height="96"/>
+                                            <mask key="subviews">
+                                                <include reference="bo3-Bi-Cmf"/>
+                                                <include reference="DO2-9b-Ds6"/>
+                                                <include reference="AXf-hc-4AY"/>
+                                                <include reference="5gw-D8-fBP"/>
+                                                <include reference="Zol-qf-k8X"/>
+                                                <include reference="qYk-qz-e4P"/>
+                                            </mask>
+                                        </variation>
+                                    </view>
+                                    <view contentMode="scaleToFill" horizontalCompressionResistancePriority="400" translatesAutoresizingMaskIntoConstraints="NO" id="p2e-ZE-fdT">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sin dirección de envío" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dxo-Du-jTX">
+                                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="25" y="46" width="142" height="21"/>
+                                                </variation>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dirección de envío" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OqU-Bn-oA3">
+                                                <rect key="frame" x="20" y="20" width="186" height="43"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="25" y="19" width="166" height="24"/>
+                                                </variation>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <variation key="default">
+                                            <mask key="subviews">
+                                                <exclude reference="dxo-Du-jTX"/>
+                                                <exclude reference="OqU-Bn-oA3"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="0.0" y="345" width="400" height="82"/>
+                                            <mask key="subviews">
+                                                <include reference="dxo-Du-jTX"/>
+                                                <include reference="OqU-Bn-oA3"/>
+                                            </mask>
+                                        </variation>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.97068339646464641" green="0.97068339646464641" blue="0.97068339646464641" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="Dks-tj-q4v"/>
+                                        <exclude reference="SMz-k2-Gve"/>
+                                        <exclude reference="btb-4m-552"/>
+                                        <exclude reference="Cu1-2I-Go8"/>
+                                        <exclude reference="3Qj-4u-rpf"/>
+                                        <exclude reference="p2e-ZE-fdT"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="76" width="400" height="859"/>
+                                    <mask key="subviews">
+                                        <include reference="Dks-tj-q4v"/>
+                                        <include reference="SMz-k2-Gve"/>
+                                        <include reference="btb-4m-552"/>
+                                        <include reference="Cu1-2I-Go8"/>
+                                        <include reference="3Qj-4u-rpf"/>
+                                        <include reference="p2e-ZE-fdT"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OYa-e7-oqV">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <items>
+                                    <tabBarItem title="Preguntas" image="preguntas_off" id="WbH-PQ-Ybr"/>
+                                    <tabBarItem title="Contactos" image="contact_off" id="aBm-Jw-ldJ"/>
+                                    <tabBarItem title="Ventas" image="ventas_on" selectedImage="ventas_on" id="Uk1-dL-Lqf"/>
+                                    <tabBarItem title="Productos" image="productos_off" id="zUA-lt-boW"/>
+                                    <tabBarItem title="Perfil" image="perfil_off" id="Ine-NL-OXP"/>
+                                </items>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="946" width="400" height="49"/>
+                                </variation>
+                            </tabBar>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="RqE-mD-yCv"/>
+                                <exclude reference="ycz-4p-a1g"/>
+                                <exclude reference="ZhW-35-FaY"/>
+                                <exclude reference="OYa-e7-oqV"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="RqE-mD-yCv"/>
+                                <include reference="ycz-4p-a1g"/>
+                                <include reference="ZhW-35-FaY"/>
+                                <include reference="OYa-e7-oqV"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="400" height="995"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="214.5" y="486.375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="agregar_contacto" width="16" height="16"/>
+        <image name="contact_off" width="25" height="25"/>
+        <image name="estado_envio" width="30" height="30"/>
+        <image name="estado_factura" width="30" height="30"/>
+        <image name="estado_pago" width="30" height="30"/>
+        <image name="ic_answer_trash" width="26" height="26"/>
+        <image name="perfil_off" width="25" height="25"/>
+        <image name="preguntas_off" width="25" height="25"/>
+        <image name="productos_off" width="25" height="25"/>
+        <image name="ventas_editar" width="22" height="22"/>
+        <image name="ventas_llamar" width="30" height="30"/>
+        <image name="ventas_mail" width="30" height="30"/>
+        <image name="ventas_on" width="25" height="25"/>
+    </resources>
+    <color key="tintColor" red="0.30588235289999999" green="0.32549019610000002" blue="0.54117647059999996" alpha="1" colorSpace="calibratedRGB"/>
 </document>
