@@ -1,0 +1,1 @@
+../../../resizable-navigation-bar/ResizableNavigationBar/Classes/LVResizableNavigationAnimation.h

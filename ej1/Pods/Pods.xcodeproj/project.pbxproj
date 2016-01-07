@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05C0ED8EA447244B1710C119B4E653B9 /* resizable-navigation-bar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 516F1E100CAD7B47626423292F441ABD /* resizable-navigation-bar-dummy.m */; };
+		2F86A6F8585EAA4C93C7DBA6EA958DB7 /* LVResizableNavigationAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = DE5870DA7145630DC542833D242B3F7F /* LVResizableNavigationAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3256DC62228F00131E70CA015BA9A761 /* LVResizableNavigationAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F99CDE386EDD56A1A312BB86961B6FB7 /* LVResizableNavigationAnimation.m */; };
+		369A65EDCC4FC1FDAA4F01F08839948A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
+		3E3958D12B22E28467780CAE588EB7EA /* LVResizableNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 09BD5033049FFF216A8BE6DBBF085F4A /* LVResizableNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		496E7B41355CE19DABA26EAFDBB6FA89 /* LVResizableNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E0924155652956FE2A84AE4CF19C7CA /* LVResizableNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		686F8DC890B09B042429B28DE8F41BB4 /* Pods-ej1-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6605D78A5E8CF0C04A82484781FAA081 /* Pods-ej1-dummy.m */; };
+		896436A1A8A528B8C8402C174C5B8E7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		8F7817D299584B7F1B183404BA61B9E1 /* LVResizableNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F81DD79497AF0BC59A01105A2B70B8 /* LVResizableNavigationBar.m */; };
+		F531EFE66BD00800F8D4715E182FAEE2 /* LVResizableNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBA0C30EFA9F29E5302E59C55D2ACA4 /* LVResizableNavigationController.m */; };
+		FB24B1A08456BF44155E571B1DAA4CB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		933CCABBCEF0F611C4295590109423A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2595D5178A571AFE75144340897AE8F4;
+			remoteInfo = "resizable-navigation-bar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05208B0E24AB8E7FAD9E7F80A33D38FC /* Pods-ej1-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ej1-frameworks.sh"; sourceTree = "<group>"; };
+		05F81DD79497AF0BC59A01105A2B70B8 /* LVResizableNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVResizableNavigationBar.m; path = ResizableNavigationBar/Classes/LVResizableNavigationBar.m; sourceTree = "<group>"; };
+		09BD5033049FFF216A8BE6DBBF085F4A /* LVResizableNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVResizableNavigationController.h; path = ResizableNavigationBar/Classes/LVResizableNavigationController.h; sourceTree = "<group>"; };
+		258D41B9D6C3B6B6F96E5D1D4DC9EDF5 /* Pods-ej1-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ej1-acknowledgements.plist"; sourceTree = "<group>"; };
+		3C29CE04B0B01A059CD254CCBA9600B4 /* libPods-ej1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ej1.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		516F1E100CAD7B47626423292F441ABD /* resizable-navigation-bar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "resizable-navigation-bar-dummy.m"; sourceTree = "<group>"; };
+		6605D78A5E8CF0C04A82484781FAA081 /* Pods-ej1-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ej1-dummy.m"; sourceTree = "<group>"; };
+		665E992970951239B991EBF46394B208 /* resizable-navigation-bar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "resizable-navigation-bar-prefix.pch"; sourceTree = "<group>"; };
+		6E0924155652956FE2A84AE4CF19C7CA /* LVResizableNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVResizableNavigationBar.h; path = ResizableNavigationBar/Classes/LVResizableNavigationBar.h; sourceTree = "<group>"; };
+		6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		817E157F04D942CCDFF6055F76BE040E /* Pods-ej1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ej1.release.xcconfig"; sourceTree = "<group>"; };
+		8CFB9E6EFB80DE3D40DF87DFAB3DCF2F /* Pods-ej1-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ej1-resources.sh"; sourceTree = "<group>"; };
+		8FC69972AF53ADBAACE806073663ED2B /* libresizable-navigation-bar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libresizable-navigation-bar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6493F9FED0A758B30082C1CF5638FF0 /* Pods-ej1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ej1.debug.xcconfig"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF5D86F020FCCAD5811EF612389B8DB2 /* resizable-navigation-bar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "resizable-navigation-bar.xcconfig"; sourceTree = "<group>"; };
+		BFBA0C30EFA9F29E5302E59C55D2ACA4 /* LVResizableNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVResizableNavigationController.m; path = ResizableNavigationBar/Classes/LVResizableNavigationController.m; sourceTree = "<group>"; };
+		C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		DC9A4F3ACBF00201C8DB85D1DCBF8B3E /* Pods-ej1-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ej1-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DE5870DA7145630DC542833D242B3F7F /* LVResizableNavigationAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVResizableNavigationAnimation.h; path = ResizableNavigationBar/Classes/LVResizableNavigationAnimation.h; sourceTree = "<group>"; };
+		F99CDE386EDD56A1A312BB86961B6FB7 /* LVResizableNavigationAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVResizableNavigationAnimation.m; path = ResizableNavigationBar/Classes/LVResizableNavigationAnimation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2820DE62D2D0A7073CC4D3F3E61CE1D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB24B1A08456BF44155E571B1DAA4CB2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1920DE75A35187B62358B861277EE3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				896436A1A8A528B8C8402C174C5B8E7F /* Foundation.framework in Frameworks */,
+				369A65EDCC4FC1FDAA4F01F08839948A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18340F12838DEE43507667CC74401EB1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */,
+				C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		27492FB6D29388FCA1FF99F16A009EC8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF003B4752503AB15A085E3448377D4F /* resizable-navigation-bar */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3B1EFC75FC070250A72EF7B09852C76E /* Pods-ej1 */ = {
+			isa = PBXGroup;
+			children = (
+				DC9A4F3ACBF00201C8DB85D1DCBF8B3E /* Pods-ej1-acknowledgements.markdown */,
+				258D41B9D6C3B6B6F96E5D1D4DC9EDF5 /* Pods-ej1-acknowledgements.plist */,
+				6605D78A5E8CF0C04A82484781FAA081 /* Pods-ej1-dummy.m */,
+				05208B0E24AB8E7FAD9E7F80A33D38FC /* Pods-ej1-frameworks.sh */,
+				8CFB9E6EFB80DE3D40DF87DFAB3DCF2F /* Pods-ej1-resources.sh */,
+				B6493F9FED0A758B30082C1CF5638FF0 /* Pods-ej1.debug.xcconfig */,
+				817E157F04D942CCDFF6055F76BE040E /* Pods-ej1.release.xcconfig */,
+			);
+			name = "Pods-ej1";
+			path = "Target Support Files/Pods-ej1";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18340F12838DEE43507667CC74401EB1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				27492FB6D29388FCA1FF99F16A009EC8 /* Pods */,
+				AD59AD8481BB7C72574B36542CFDFA61 /* Products */,
+				9AA4D564947614F21049AB9B2CCD3AB5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9AA4D564947614F21049AB9B2CCD3AB5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B1EFC75FC070250A72EF7B09852C76E /* Pods-ej1 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AD59AD8481BB7C72574B36542CFDFA61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C29CE04B0B01A059CD254CCBA9600B4 /* libPods-ej1.a */,
+				8FC69972AF53ADBAACE806073663ED2B /* libresizable-navigation-bar.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6BF00C1B7D57EF8F4AB467DE357FE73 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF5D86F020FCCAD5811EF612389B8DB2 /* resizable-navigation-bar.xcconfig */,
+				516F1E100CAD7B47626423292F441ABD /* resizable-navigation-bar-dummy.m */,
+				665E992970951239B991EBF46394B208 /* resizable-navigation-bar-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/resizable-navigation-bar";
+			sourceTree = "<group>";
+		};
+		FF003B4752503AB15A085E3448377D4F /* resizable-navigation-bar */ = {
+			isa = PBXGroup;
+			children = (
+				DE5870DA7145630DC542833D242B3F7F /* LVResizableNavigationAnimation.h */,
+				F99CDE386EDD56A1A312BB86961B6FB7 /* LVResizableNavigationAnimation.m */,
+				6E0924155652956FE2A84AE4CF19C7CA /* LVResizableNavigationBar.h */,
+				05F81DD79497AF0BC59A01105A2B70B8 /* LVResizableNavigationBar.m */,
+				09BD5033049FFF216A8BE6DBBF085F4A /* LVResizableNavigationController.h */,
+				BFBA0C30EFA9F29E5302E59C55D2ACA4 /* LVResizableNavigationController.m */,
+				D6BF00C1B7D57EF8F4AB467DE357FE73 /* Support Files */,
+			);
+			path = "resizable-navigation-bar";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		24EE306543CB2AA62BB7404C09A373FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F86A6F8585EAA4C93C7DBA6EA958DB7 /* LVResizableNavigationAnimation.h in Headers */,
+				496E7B41355CE19DABA26EAFDBB6FA89 /* LVResizableNavigationBar.h in Headers */,
+				3E3958D12B22E28467780CAE588EB7EA /* LVResizableNavigationController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2595D5178A571AFE75144340897AE8F4 /* resizable-navigation-bar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA91C3402DAF01234420726ADD07CC99 /* Build configuration list for PBXNativeTarget "resizable-navigation-bar" */;
+			buildPhases = (
+				A31D869D48CA1BEB62CC92767111178F /* Sources */,
+				F1920DE75A35187B62358B861277EE3D /* Frameworks */,
+				24EE306543CB2AA62BB7404C09A373FA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "resizable-navigation-bar";
+			productName = "resizable-navigation-bar";
+			productReference = 8FC69972AF53ADBAACE806073663ED2B /* libresizable-navigation-bar.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		31AA1D302F8ECFD2A025D86D0622E2F2 /* Pods-ej1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46E1AF8E460EEF2B72CCA55911D4ABDA /* Build configuration list for PBXNativeTarget "Pods-ej1" */;
+			buildPhases = (
+				E84512A5408B42F1B7F8D230C51031A5 /* Sources */,
+				2820DE62D2D0A7073CC4D3F3E61CE1D3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC71749974442A2B2102D008AC2BA508 /* PBXTargetDependency */,
+			);
+			name = "Pods-ej1";
+			productName = "Pods-ej1";
+			productReference = 3C29CE04B0B01A059CD254CCBA9600B4 /* libPods-ej1.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = AD59AD8481BB7C72574B36542CFDFA61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31AA1D302F8ECFD2A025D86D0622E2F2 /* Pods-ej1 */,
+				2595D5178A571AFE75144340897AE8F4 /* resizable-navigation-bar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A31D869D48CA1BEB62CC92767111178F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3256DC62228F00131E70CA015BA9A761 /* LVResizableNavigationAnimation.m in Sources */,
+				8F7817D299584B7F1B183404BA61B9E1 /* LVResizableNavigationBar.m in Sources */,
+				F531EFE66BD00800F8D4715E182FAEE2 /* LVResizableNavigationController.m in Sources */,
+				05C0ED8EA447244B1710C119B4E653B9 /* resizable-navigation-bar-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84512A5408B42F1B7F8D230C51031A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				686F8DC890B09B042429B28DE8F41BB4 /* Pods-ej1-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC71749974442A2B2102D008AC2BA508 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "resizable-navigation-bar";
+			target = 2595D5178A571AFE75144340897AE8F4 /* resizable-navigation-bar */;
+			targetProxy = 933CCABBCEF0F611C4295590109423A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2CDC5201313AF3A82BBD2A763087138A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF5D86F020FCCAD5811EF612389B8DB2 /* resizable-navigation-bar.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/resizable-navigation-bar/resizable-navigation-bar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		471725BA3D3174A7B0AA6ABBE4CF0455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF5D86F020FCCAD5811EF612389B8DB2 /* resizable-navigation-bar.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/resizable-navigation-bar/resizable-navigation-bar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8245BC0E3B91DC2512AB6DAB5C907E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6493F9FED0A758B30082C1CF5638FF0 /* Pods-ej1.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8D1534490D941DCA47C62AC4314182AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BCD830BCBE90579350D141CFD155157E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 817E157F04D942CCDFF6055F76BE040E /* Pods-ej1.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C5A18280E9321A9268D1C80B7DA43967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1534490D941DCA47C62AC4314182AF /* Debug */,
+				C5A18280E9321A9268D1C80B7DA43967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46E1AF8E460EEF2B72CCA55911D4ABDA /* Build configuration list for PBXNativeTarget "Pods-ej1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8245BC0E3B91DC2512AB6DAB5C907E78 /* Debug */,
+				BCD830BCBE90579350D141CFD155157E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA91C3402DAF01234420726ADD07CC99 /* Build configuration list for PBXNativeTarget "resizable-navigation-bar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CDC5201313AF3A82BBD2A763087138A /* Debug */,
+				471725BA3D3174A7B0AA6ABBE4CF0455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
