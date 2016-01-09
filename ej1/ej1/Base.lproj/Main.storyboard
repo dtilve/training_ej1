@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -14,17 +13,19 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="400" height="995"/>
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="985"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RqE-mD-yCv">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <animations/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="0.0" y="64" width="400" height="882"/>
                                 </variation>
                             </scrollView>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ycz-4p-a1g">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <animations/>
                                 <color key="tintColor" red="0.61318420516271399" green="0.67049554861820015" blue="0.68785511359999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
                                     <navigationItem title="Venta" id="dwj-fR-HeE">
@@ -34,7 +35,7 @@
                                     </navigationItem>
                                 </items>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="20" width="400" height="44"/>
+                                    <rect key="frame" x="0.0" y="32" width="400" height="44"/>
                                 </variation>
                             </navigationBar>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZhW-35-FaY">
@@ -48,6 +49,7 @@
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Producto" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mhW-CI-ruH">
                                                         <rect key="frame" x="20" y="20" width="71" height="21"/>
+                                                        <animations/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -57,6 +59,7 @@
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cantidad" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lu1-9t-YIf">
                                                         <rect key="frame" x="20" y="20" width="71" height="21"/>
+                                                        <animations/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -66,6 +69,7 @@
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Precio" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zm2-ii-71a">
                                                         <rect key="frame" x="20" y="20" width="71" height="21"/>
+                                                        <animations/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -81,6 +85,7 @@
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NaG-Pw-dJI">
                                                                         <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                                                        <animations/>
                                                                         <string key="text">Item de testeo - Por favor no 
 ofertar</string>
                                                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
@@ -92,6 +97,7 @@ ofertar</string>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qem-N5-KAx">
                                                                         <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                                                        <animations/>
                                                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
                                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                         <nil key="highlightedColor"/>
@@ -101,6 +107,7 @@ ofertar</string>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$12,00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JCb-ZF-UT8">
                                                                         <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                                                        <animations/>
                                                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
                                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                         <nil key="highlightedColor"/>
@@ -109,6 +116,7 @@ ofertar</string>
                                                                         </variation>
                                                                     </label>
                                                                 </subviews>
+                                                                <animations/>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                 <variation key="default">
                                                                     <mask key="subviews">
@@ -131,6 +139,7 @@ ofertar</string>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descuento" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RYD-Vy-CDY">
                                                                         <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                                                        <animations/>
                                                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
                                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                         <nil key="highlightedColor"/>
@@ -140,6 +149,7 @@ ofertar</string>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$12,00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pXK-ax-DVU">
                                                                         <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                                                        <animations/>
                                                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
                                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                         <nil key="highlightedColor"/>
@@ -148,6 +158,7 @@ ofertar</string>
                                                                         </variation>
                                                                     </label>
                                                                 </subviews>
+                                                                <animations/>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                 <variation key="default">
                                                                     <mask key="subviews">
@@ -168,6 +179,7 @@ ofertar</string>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Envío" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gqg-Ru-pKy">
                                                                         <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                                                        <animations/>
                                                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
                                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                         <nil key="highlightedColor"/>
@@ -177,6 +189,7 @@ ofertar</string>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0,00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L50-RL-PTN">
                                                                         <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                                                        <animations/>
                                                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
                                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                         <nil key="highlightedColor"/>
@@ -185,6 +198,7 @@ ofertar</string>
                                                                         </variation>
                                                                     </label>
                                                                 </subviews>
+                                                                <animations/>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                 <variation key="default">
                                                                     <mask key="subviews">
@@ -201,6 +215,7 @@ ofertar</string>
                                                                 </variation>
                                                             </view>
                                                         </subviews>
+                                                        <animations/>
                                                         <color key="backgroundColor" red="0.85465988010000005" green="0.85465988010000005" blue="0.85465988010000005" alpha="1" colorSpace="calibratedRGB"/>
                                                         <variation key="default">
                                                             <mask key="subviews">
@@ -220,6 +235,7 @@ ofertar</string>
                                                     </view>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TOTAL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1mA-8d-wMo">
                                                         <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                                        <animations/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -229,6 +245,7 @@ ofertar</string>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0,00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rHL-RG-jwi">
                                                         <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                                        <animations/>
                                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -237,6 +254,7 @@ ofertar</string>
                                                         </variation>
                                                     </label>
                                                 </subviews>
+                                                <animations/>
                                                 <color key="backgroundColor" red="0.97068339650000002" green="0.97068339650000002" blue="0.97068339650000002" alpha="1" colorSpace="calibratedRGB"/>
                                                 <variation key="default">
                                                     <mask key="subviews">
@@ -261,6 +279,7 @@ ofertar</string>
                                                 </variation>
                                             </view>
                                         </subviews>
+                                        <animations/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <variation key="default">
                                             <mask key="subviews">
@@ -279,6 +298,7 @@ ofertar</string>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Notas" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="edB-vX-QyE">
                                                 <rect key="frame" x="20" y="20" width="186" height="43"/>
+                                                <animations/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -288,6 +308,7 @@ ofertar</string>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum lorel, commenset in abem simet" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gUT-9R-Rcl">
                                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                                <animations/>
                                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -297,12 +318,14 @@ ofertar</string>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nTX-Kh-Che">
                                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                                <animations/>
                                                 <state key="normal" image="ic_answer_trash"/>
                                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                                     <rect key="frame" x="346" y="34" width="46" height="30"/>
                                                 </variation>
                                             </button>
                                         </subviews>
+                                        <animations/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <variation key="default">
                                             <mask key="subviews">
@@ -325,6 +348,7 @@ ofertar</string>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Datos del cliente" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YcO-hR-2Bm">
                                                 <rect key="frame" x="20" y="20" width="186" height="43"/>
+                                                <animations/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -340,6 +364,7 @@ ofertar</string>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4mC-YF-ukI">
                                                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                                                <animations/>
                                                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
                                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <nil key="highlightedColor"/>
@@ -349,12 +374,14 @@ ofertar</string>
                                                             </label>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WaW-Th-Jac">
                                                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                                                <animations/>
                                                                 <state key="normal" image="agregar_contacto"/>
                                                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                                                     <rect key="frame" x="335" y="9" width="46" height="30"/>
                                                                 </variation>
                                                             </button>
                                                         </subviews>
+                                                        <animations/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <variation key="default">
                                                             <mask key="subviews">
@@ -375,6 +402,7 @@ ofertar</string>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="an@gmail.com" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U6u-T8-pio">
                                                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                                                <animations/>
                                                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
                                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <nil key="highlightedColor"/>
@@ -383,6 +411,7 @@ ofertar</string>
                                                                 </variation>
                                                             </label>
                                                         </subviews>
+                                                        <animations/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <variation key="default">
                                                             <mask key="subviews">
@@ -401,6 +430,7 @@ ofertar</string>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+54 11 4785 9885" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N3d-n8-i5B">
                                                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                                                <animations/>
                                                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
                                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <nil key="highlightedColor"/>
@@ -409,6 +439,7 @@ ofertar</string>
                                                                 </variation>
                                                             </label>
                                                         </subviews>
+                                                        <animations/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <variation key="default">
                                                             <mask key="subviews">
@@ -423,6 +454,7 @@ ofertar</string>
                                                         </variation>
                                                     </view>
                                                 </subviews>
+                                                <animations/>
                                                 <color key="backgroundColor" red="0.85465988008585858" green="0.85465988008585858" blue="0.85465988008585858" alpha="1" colorSpace="calibratedRGB"/>
                                                 <variation key="default">
                                                     <mask key="subviews">
@@ -445,6 +477,7 @@ ofertar</string>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sin dirección" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dd7-hO-fdi">
                                                         <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                                        <animations/>
                                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -453,6 +486,7 @@ ofertar</string>
                                                         </variation>
                                                     </label>
                                                 </subviews>
+                                                <animations/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <variation key="default">
                                                     <mask key="subviews">
@@ -467,6 +501,7 @@ ofertar</string>
                                                 </variation>
                                             </view>
                                         </subviews>
+                                        <animations/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <variation key="default">
                                             <mask key="subviews">
@@ -489,6 +524,7 @@ ofertar</string>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b1J-Xh-3HI">
                                                 <rect key="frame" x="20" y="20" width="186" height="43"/>
+                                                <animations/>
                                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
                                                 <color key="textColor" red="0.26662161169959425" green="0.3569187472073222" blue="0.68785511363636365" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -498,6 +534,7 @@ ofertar</string>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="via: MercadoShops" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9fG-sz-hGN">
                                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                                <animations/>
                                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -507,6 +544,7 @@ ofertar</string>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TSs-6t-ZM8">
                                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                                <animations/>
                                                 <color key="tintColor" red="0.30588235294117649" green="0.32549019607843138" blue="0.54117647058823526" alpha="1" colorSpace="calibratedRGB"/>
                                                 <state key="normal" title="Button" image="ventas_llamar"/>
                                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
@@ -515,6 +553,7 @@ ofertar</string>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dJO-ec-FPo">
                                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                                <animations/>
                                                 <color key="tintColor" red="0.30588235294117649" green="0.32549019607843138" blue="0.54117647058823526" alpha="1" colorSpace="calibratedRGB"/>
                                                 <state key="normal" title="Button" image="ventas_mail"/>
                                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
@@ -523,6 +562,7 @@ ofertar</string>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3:42 PM" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fMI-cL-T2a">
                                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                                <animations/>
                                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
                                                 <color key="textColor" red="0.57254901960000004" green="0.57254901960000004" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -532,6 +572,7 @@ ofertar</string>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3 nov" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gwb-ek-OOI">
                                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                                <animations/>
                                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
                                                 <color key="textColor" red="0.57254901960000004" green="0.57254901960000004" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -544,12 +585,14 @@ ofertar</string>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nfj-Pu-zUa">
                                                         <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                        <animations/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                                             <rect key="frame" x="2" y="-21" width="6" height="60"/>
                                                         </variation>
                                                     </view>
                                                 </subviews>
+                                                <animations/>
                                                 <color key="backgroundColor" red="0.85465988010000005" green="0.85465988010000005" blue="0.85465988010000005" alpha="1" colorSpace="calibratedRGB"/>
                                                 <variation key="default">
                                                     <mask key="subviews">
@@ -564,6 +607,7 @@ ofertar</string>
                                                 </variation>
                                             </view>
                                         </subviews>
+                                        <animations/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <variation key="default">
                                             <mask key="subviews">
@@ -594,24 +638,28 @@ ofertar</string>
                                         <subviews>
                                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="estado_pago" translatesAutoresizingMaskIntoConstraints="NO" id="bo3-Bi-Cmf">
                                                 <rect key="frame" x="0.0" y="-30" width="30" height="30"/>
+                                                <animations/>
                                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                                     <rect key="frame" x="67" y="23" width="30" height="30"/>
                                                 </variation>
                                             </imageView>
                                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="estado_envio" translatesAutoresizingMaskIntoConstraints="NO" id="DO2-9b-Ds6">
                                                 <rect key="frame" x="0.0" y="-30" width="30" height="30"/>
+                                                <animations/>
                                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                                     <rect key="frame" x="185" y="23" width="30" height="30"/>
                                                 </variation>
                                             </imageView>
                                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="estado_factura" translatesAutoresizingMaskIntoConstraints="NO" id="AXf-hc-4AY">
                                                 <rect key="frame" x="0.0" y="-30" width="30" height="30"/>
+                                                <animations/>
                                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                                     <rect key="frame" x="314" y="23" width="30" height="30"/>
                                                 </variation>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Envío pendiente" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5gw-D8-fBP">
                                                 <rect key="frame" x="20" y="20" width="142" height="21"/>
+                                                <animations/>
                                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
                                                 <color key="textColor" red="0.50196081399917603" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -622,6 +670,7 @@ ofertar</string>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Facturado" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zol-qf-k8X">
                                                 <rect key="frame" x="20" y="20" width="142" height="21"/>
+                                                <animations/>
                                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
                                                 <color key="textColor" red="0.25098040699958801" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -632,6 +681,7 @@ ofertar</string>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cobrado" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qYk-qz-e4P">
                                                 <rect key="frame" x="20" y="20" width="142" height="21"/>
+                                                <animations/>
                                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
                                                 <color key="textColor" red="0.25098040699958801" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -641,6 +691,7 @@ ofertar</string>
                                                 </variation>
                                             </label>
                                         </subviews>
+                                        <animations/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <variation key="default">
                                             <mask key="subviews">
@@ -669,6 +720,7 @@ ofertar</string>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sin dirección de envío" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dxo-Du-jTX">
                                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                                <animations/>
                                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -679,6 +731,7 @@ ofertar</string>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dirección de envío" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OqU-Bn-oA3">
                                                 <rect key="frame" x="20" y="20" width="186" height="43"/>
+                                                <animations/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -687,6 +740,7 @@ ofertar</string>
                                                 </variation>
                                             </label>
                                         </subviews>
+                                        <animations/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <variation key="default">
                                             <mask key="subviews">
@@ -703,6 +757,7 @@ ofertar</string>
                                         </variation>
                                     </view>
                                 </subviews>
+                                <animations/>
                                 <color key="backgroundColor" red="0.97068339646464641" green="0.97068339646464641" blue="0.97068339646464641" alpha="1" colorSpace="calibratedRGB"/>
                                 <variation key="default">
                                     <mask key="subviews">
@@ -728,6 +783,7 @@ ofertar</string>
                             </view>
                             <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OYa-e7-oqV">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                                <animations/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <items>
                                     <tabBarItem title="Preguntas" image="preguntas_off" id="WbH-PQ-Ybr"/>
@@ -737,10 +793,11 @@ ofertar</string>
                                     <tabBarItem title="Perfil" image="perfil_off" id="Ine-NL-OXP"/>
                                 </items>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="946" width="400" height="49"/>
+                                    <rect key="frame" x="0.0" y="935" width="400" height="49"/>
                                 </variation>
                             </tabBar>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
@@ -760,7 +817,7 @@ ofertar</string>
                         </variation>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="400" height="995"/>
+                    <size key="freeformSize" width="400" height="985"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
